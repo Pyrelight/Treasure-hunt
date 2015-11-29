@@ -18,6 +18,7 @@ public class path extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1200, 60, 1); 
         addObject(new Startline(),getWidth() / 2, getHeight() / 2);
-        addObject(new Robot(),getWidth() / 2, getHeight() / 2);        
+        addObject(new Robot(),getWidth() / 2, getHeight() / 2);     
+        addObject(new Treasure(), 1000 , getHeight() / 2);
     }
 }
